@@ -9,11 +9,11 @@ import edusity from "../../assets/edusity.png";
 // Projects array with unique image for each project
 const projects = [
   {
-    title: "E-Commerce Platform",
-    desc: "A fully responsive e-commerce website built with React, featuring smooth animations, reusable components, and modern UI design.",
+    title: "Educational Platform",
+    desc: "A modern studying website providing structured courses and interactive learning experiences, built with React and responsive design.",
     tags: ["React", "CSS", "Vite"],
-    link: "https://mehboob368.github.io/sport.github.io/",
-    image: sport,
+    link: "https://mehboob368.github.io/ReactJSProject.github.io/",
+    image: edusity,
   },
   {
     title: "Personal Portfolio Website",
@@ -23,11 +23,11 @@ const projects = [
     image: portfolio,
   },
   {
-    title: "Educational Platform",
-    desc: "A modern studying website providing structured courses and interactive learning experiences, built with React and responsive design.",
+    title: "E-Commerce Platform",
+    desc: "A fully responsive e-commerce website built with React, featuring smooth animations, reusable components, and modern UI design.",
     tags: ["React", "CSS", "Vite"],
-    link: "https://mehboob368.github.io/ReactJSProject.github.io/",
-    image: edusity,
+    link: "https://insighteye-react.vercel.app/",
+    image: sport,
   },
 ];
 
