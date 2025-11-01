@@ -12,21 +12,21 @@ const projects = [
     title: "Interactive To-Do Web App",
     desc: "A responsive task management web app with add, delete, and complete features using localStorage and smooth animations.",
     tags: ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
-    link: "https://mehboob368.github.io/todo-app/", // update if you host it
+    link: "https://mehboob368.github.io/Todo/", // update if you host it
     image: todo,
   },
   {
     title: "ShopEase – E-Commerce Website",
     desc: "A modern single-page e-commerce website with animated UI, light/dark theme toggle, and attractive product sections.",
     tags: ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
-    link: "https://mehboob368.github.io/ecommerce-website/", // update your actual link
+    link: "https://mehboob368.github.io/shopease/", // update your actual link
     image: ecommerce,
   },
   {
     title: "Personal Portfolio Website",
     desc: "A professional React.js portfolio showcasing projects, skills, and contact details with responsive design and theme toggle.",
     tags: ["React.js", "Bootstrap", "CSS", "JavaScript"],
-    link: "https://mehboob368.github.io/", // your portfolio link
+    link: "https://mehboob368.github.io/portfolio/", // your portfolio link
     image: portfolio,
   },
 ];
