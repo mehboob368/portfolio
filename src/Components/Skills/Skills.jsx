@@ -24,7 +24,13 @@ function Skills() {
                 <span className="muted">{s.level}%</span>
               </div>
               <div className="bar">
-                <span style={{ width: s.level + '%' }} />
+                {/* 👇 yahan percentage ke hisaab se width set ho rahi hai */}
+                <span
+                  style={{
+                    width: `${s.level}%`,
+                    "--w": `${s.level}%`,
+                  }}
+                />
               </div>
             </div>
           ))}

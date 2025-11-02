@@ -1,16 +1,44 @@
 .skills {
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
 }
-.skill { padding: 16px; }
-.skill .row { display: flex; align-items: center; justify-content: space-between; }
-.bar {
-  position: relative; height: 10px; background: rgba(148,163,184,.2);
-  border-radius: 999px; overflow: hidden; margin-top: 10px;
+
+.skill {
+  padding: 16px;
 }
+
+.skill .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bar {
+  position: relative;
+  height: 10px;
+  background: rgba(148, 163, 184, 0.2);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
 .bar span {
-  position: absolute; left: 0; top: 0; bottom: 0; width: 0%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0%;
   background: linear-gradient(90deg, var(--brand), var(--brand-2));
   border-radius: 999px;
   animation: grow 1.2s ease forwards;
+  /* 👇 Animate to the correct width */
+  animation-fill-mode: forwards;
 }
-@keyframes grow { to { width: var(--w, 100%); } }
+
+@keyframes grow {
+  from {
+    width: 0%;
+  }
+  to {
+    width: var(--w);
+  }
+}
